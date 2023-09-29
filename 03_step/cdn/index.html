@@ -2,6 +2,7 @@
 <html lang='en'>
   <head>
     <title>Vue.js App</title>
+    <link rel="stylesheet" href="style.css">
   </head>
  
   <body>
@@ -16,18 +17,15 @@
 
 
   <script type="module">
-    import { createApp, ref, reactive } from 'vue';
-    import component from './componenet.js';
+    import { createApp, ref, reactive } from "vue";
+    import component from "./componenet.js";
 
-    createApp(component).mount('#app');
+    createApp(component).mount("#app");
   </script>
 
    <div id="app">
-
-      <h1>{{ message }}</h1>
-      <p>count is: {{ counter.count }}</p>
-
-    </div>
+     <h1 :class="titleClass">Make me red</h1>
+   </div>
 
   </body>
 </html>
