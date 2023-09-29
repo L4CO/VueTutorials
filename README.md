@@ -9,6 +9,14 @@ All steps are implemented in separate directories, including an "sfc" and "cdn" 
 Implemented are both starategies. Using an build of **"Single-File Components SFCs"** and using Vue
 directly using [unpkg.com/](https://unpkg.com/) from **"CDN"** via script tag.
 
+
+# How to start 
+## in SFC Directory run:
+`npm run dev`
+## in CDN Directory run:
+`npx serve`
+
 # Steps
 
 - 01_step : [Getting Started](https://vuejs.org/tutorial/#step-1)
+- 02_step : [Declarative Rendering](https://vuejs.org/tutorial/#step-2)
