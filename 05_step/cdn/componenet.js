@@ -4,16 +4,10 @@ export default {
 
   setup() {
     console.log('vue from CDN');
-    const count = ref(0);
+    const text = ref(''); 
     
-    function increment(){
-	//update component state
-	count.value++;
-      };
-
     return {
-     increment,
-     count
+      text 
     }
   }
 }
