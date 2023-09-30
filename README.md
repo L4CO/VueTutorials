@@ -21,3 +21,4 @@ directly using [unpkg.com/](https://unpkg.com/) from **"CDN"** via script tag.
 - 01_step : [Getting Started](https://vuejs.org/tutorial/#step-1)
 - 02_step : [Declarative Rendering](https://vuejs.org/tutorial/#step-2)
 - 03_step : [Attribute Bindings](https://vuejs.org/tutorial/#step-3)
+- 04_step : [Event Listeners](https://vuejs.org/tutorial/#step-4)
