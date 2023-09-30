@@ -2,13 +2,11 @@
   console.log('vue via vite');
   import { ref } from "vue";
 
-  const count = ref(0);
+  const text = ref(''); 
 
-  function increment(){
-    count.value++;
-    };
 </script>
 
 <template>
-  <button @click="increment">count is : {{ count }}</button>
+  <input v-model="text" placeholder="Type here">
+  <p>{{ text }}</p>
 </template>
