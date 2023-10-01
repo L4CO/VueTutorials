@@ -4,10 +4,15 @@ export default {
 
   setup() {
     console.log('vue from CDN');
-    const text = ref(''); 
+    const awesome = ref( false ); 
     
+    function toggle(){
+	awesome.value = !awesome.value;
+      };
+
     return {
-      text 
+     awesome,
+     toggle
     }
   }
 }
