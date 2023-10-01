@@ -24,3 +24,4 @@ directly using [unpkg.com/](https://unpkg.com/) from **"CDN"** via script tag.
 - 04_step : [Event Listeners](https://vuejs.org/tutorial/#step-4)
 - 05_step : [Form Bindings](https://vuejs.org/tutorial/#step-5)
 - 06_step : [Conditional Rendering](https://vuejs.org/tutorial/#step-6)
+- 07_step : [List Rendering]:(https://vuejs.org/tutorial/#step-7)
